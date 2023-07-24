@@ -1,22 +1,13 @@
 class table
 {
-    int n;
-    table()
+    public static void main(String[] arg){
+    for(int i=1;i<=10;i++)
     {
-        n=5;
+        for(int j=1;j<=15;j++)
+         {
+            System.out.print(j+"*"+i+"="+(i*j)+" ");
+         }
+         System.out.println();
     }
 }
-class printtable extends table
-{
-      
-    printtable()
-    {
-     int i;
-    for(i=1;i<=10;i++)
-        System.out.print(n*i+" ");
-    }
-    public static void main(String arg[])
-     {
-        printtable ob=new printtable();            
-     }
 }
